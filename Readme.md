@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Павел Клич](https://up.htmlacademy.ru/htmlcss/33/user/1521497).
-* Наставник: `Максим Корелин` `https://htmlacademy.ru/profile/maxzbest `.
+* Наставник: [Максим Корелин](https://htmlacademy.ru/profile/maxzbest).
 
 ---
 
