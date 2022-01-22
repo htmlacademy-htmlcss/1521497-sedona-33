@@ -2,11 +2,162 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона</title>
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+<header class="page-header">
+ <nav class="navigation">
+   <ul class="navigation-list">
+     <li class="navigation-item">
+       <img class="logo-header" src="" alt="Маленький логотип Седона">
+     </li>
+     <li class="navigation-item">
+       <a class="navigation-link" href="index.html">Главная</a>
+     </li>
+
+     <li class="navigation-item">
+       <a class="navigatiom-link" href="#"> О Седоне</a>
+     </li>
+    <li class="navigation-item">
+      <a class="navigation-link" href="catalog.html">Гостиницы</a>
+    </li>
+   </ul>
+
+
+
+   <ul class="navigation-list navigation-user">
+    <li class="navigation-item">
+      <a class="navigation-link" href="#">
+        <span class="visually-hidden">Поиск</span> 
+      </a>
+    </li>
+
+    <li class="navigation-item">
+      <a class="navigatiom-link" href="#">
+         <span class="visually-hidden">Лайк</span>
+        </a>
+    </li>
+   <li class="navigation-item">
+     <a class="navigation-link" href="#">
+       Хочу сюда
+      </a>
+   </li>
+  </ul>
+ </nav>
+</header>
+
+
+
+<main class="main-index">
+  <h1 class="visually-hidden">Welcome Sedona</h1>
+  <img class="logo" src="" alt="Логотип Седона">
+
+  <h2 class="property">Седона — небольшой городок в Аризоне,
+    заслуживающий большего!</h2>
+    <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>  <!--Это просто абзац--> 
+
+    <section class="reasons"> <!--Болшая секция причины седона выяснить про классы на каждый блок, как получаеются разные цвета-->
+      <h2 class="visually-hidden">Причины</h2>
+      <ul class="reasons-list">
+        <li class="reasons-item"> 
+        <h3 class="reasons-title">Настоящий городок</h3>
+        <p class="reasons-description"> — №1 —</p>
+        <p class="reasons-description">Седона — не аттракцион для туристов, там течёт 
+          своя жизнь</p>
+          <img class="reasons-image-hotel" src="" alt="Фото гостиницы">
+        </li>
+        <li class="reasons-item">
+          <h3 class="reasons-title"> Жильё</h3>
+           <p class="reasons-description">Рекомендуем пожить 
+            в настоящем мотеле, всё как в кино! </p>
+          <img class="reasons-logo" src="" alt="Домик">
+        </li>
+
+        <li class="reasons-item">
+          <h3 class="reasons-title">Еда</h3>
+          <p class="reasons-description">Всегда заказывайте
+            топовый фирменный бургер, вы не разочаруетесь!</p>
+            <img class="reasons-logo" src="" alt="бургер">
+        </li>
+
+        <li class="reasons-item">
+          <h3 class="reasons-title">Сувениры</h3>
+          <p class="reasons-description">Не только китайского, 
+            но и настоящего местного производства!</p>
+            <img class="reasons-logo" src="" alt="сувенир">
+        </li>
+
+        <li class="reasons-item">
+          <h3 class="reasons-title">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
+          <p class="reasons-description">— №2 —</p>
+          <p class="reasons-description"> Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <img class="reasons-image-bridge" src="" alt="каньон">
+        </li>
+
+        <li class="reasons-item">
+          <h3 class="reasons-title">Небольшая площадь</h3>
+          <p class="reasons-description">— №3 —</p>
+          <p class="reasons-description">Все достопримечательности 
+            находятся очень близко</p>
+        </li>
+
+        <li class="reasons-item">
+          <h3 class="reasons-title">Красивая дорога</h3>
+          <p class="reasons-description">— №4 —</p>
+          <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        </li>
+
+        <li class="reasons-item">
+          <h3 class="reasons-title">Мало туристов</h3>
+          <p class="reasons-description">— №5 —</p>
+          <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там</p>
+        </li>
+    
+      </ul>
+    </section>
+
+    <section class="search-hostel"> <!--Секция Заинтересовались-->
+     <h2 class="interested">Заинтересовались?</h2>
+      <p class="data-travel"> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <a class="button-catalog" href="catalog.html"> ПОИСК ГОСТИНИЦЫ В СЕДОНЕ </a>
+    </section>
+
+    <section>  <!--Подписаться на рассылку-->
+      <h2 class="mailing">Подпишитесь на рассылку </h2> 
+      <p class="mailing-description"> Только полезная информация и никакого спама,
+        честное бойскаутское!</p>
+        <form class="email-form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="email-form-sending">
+          <label for="email-sending"></label>
+          <input type="email" id="email-sending" name="email-sending" placeholder="Ваш e-mail">
+        </p>
+          <button class="button-email" type="submit">Подписаться</button>
+        </form>
+    </section>
+</main>
+
+
+
+<footer class="page-footer">
+  <section class="footer-social"> <!--Соц. сети-->
+<h2 class="visually-hidden"> Социальные сети</h2>
+  </section>
+
+  <section class="phone"> <!--Телефон-->
+<h2 class="phone-number">+7 (812) 812-12-12</h2>
+  </section>
+
+  <section class="academy"> <!--ссылка на академию-->
+    <h2 class="html-academy"> <a class="academy-link" href="https://htmlacademy.ru/">.html <br> academy</a></h2>
+
+  </section>
+
+</footer>
+
+
+
+   
 
   </body>
 </html>
