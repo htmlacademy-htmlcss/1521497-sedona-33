@@ -5,7 +5,7 @@
     <title>Гостиницы</title>
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header"> <!--Панель навигации-->
       <nav class="navigation">
         <img class="logo-header" src="" alt="Маленький логотип Седона" />
         <ul class="navigation-list">
@@ -40,7 +40,7 @@
     </header>
 
     <main class="main-inner">
-      <section class="filter-hostel">
+      <section class="filter-hostel"> <!--Фильтры-->
         <h1 class="hostels">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -54,6 +54,7 @@
         </ul>
         <h2 class="visually-hidden">Фильтры</h2>
         <form
+        oninput="nomer.value = slider.value"
           class="catalog-filter"
           action="https://echo.htmlacademy.ru/"
           method="get"
@@ -120,8 +121,14 @@
               </li>
             </ul>
           </fieldset>
+          <span class="filter-range"> Стоимость &#8381</span>
+          <input class="number-button" type="number" value="0" >
+          <label class="slider" for=""></label>
+          <input class="number-button" type="number" name="nomer"  value="9000" >
+          <input class="range" id="slider" type="range" value="9000" min="1" max="10000">
+          <output for="slider"></output>
           <button class="button-filter" type="submit">Применить</button>
-          <button class="button-filter" type="submit">Сбросить</button>
+          <button class="button-filter" type="reset" value="Сбросить">Сбросить</button>
         </form>
       </section>
 
