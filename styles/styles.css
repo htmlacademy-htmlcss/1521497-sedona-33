@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+/*Все тело по умолчанию*/
+body {
+font-family: "PT-sans", sans-serif;
+color: black;
+background-color: #FFFFFF;
+}
+/*header*/
+.page-header {
+    color: #000000;
+    background: #FFFFFF;
+}
+/*Ссылки в nav*/
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+/*Кнопка "хочу сюда"*/
+.button-link{
+    background-color:#756257; ;
+    color: #FFFFFF;
+    font-size:16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+/*div для фонового изображения седона*/
+.gorgeous {
+    background-image: url("/images/background-3.jpg");
+    background-position: no-repeat;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+/*весь main*/
+.main-index{
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    color: black;
+}
+.property{
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+.cause {
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+/* настоящий городок*/
+.reasons {
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+/*Список из преимуществ (uppercase)*/
+.reasons h3 {
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+/*параграфы из преимуществ цвет #333333*/
+.reasons p {
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+/*Задал белый цвет параграфам исключением*/
+.card1 p {
+    color: #FFFFFF;
+}
+.card2 p {
+    color: #FFFFFF;
+}
+/*Фоны для карточек*/
+.reasons-item:nth-child(1) {
+    color:#ffffff;
+background-color:#83B3D3 ;
+}
+.reasons-item:nth-child(5) {
+    color:#ffffff;
+background-color:#83B3D3 ;
+}
+
+.reasons-item:nth-child(2n) {
+    background-color:rgba(131, 179, 211, 0.12);;
+}
+
+.reasons-item:nth-child(7) {
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+background: rgba(131, 179, 211, 0.2);
+}
+/*Секция рассылки*/
+.interested {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.data-travel {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+}
+.button-catalog {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 36px;
+    text-decoration: none;
+    background-color:#756257;
+}
+/*Секция подписаться*/
+.mailing {
+    background-image: url("/images/background-1.jpg");
+    background-position: no-repeat;
+    background-size: 100% auto ;
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.mailing-description {
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: none;
+}
+.button-email {
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color:#83B3D3; ;
+}
+/*Телефон*/
+.phone-number {
+    font-family: "PT Sans", sans-serif;
+    font-family: normal;
+    font-size:40px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
