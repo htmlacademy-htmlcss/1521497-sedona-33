@@ -5,6 +5,7 @@
     src: url("fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
+
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
@@ -12,37 +13,86 @@
     src: url("fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
+
 /*Все тело по умолчанию*/
 body {
 font-family: "PT-sans", sans-serif;
 color: black;
-background-color: #FFFFFF;
+background-color: #FFF;
 }
+
 /*header*/
 .page-header {
     color: #000000;
-    background: #FFFFFF;
+    background: #FFF;
 }
+
 /*Ссылки в nav*/
 .navigation-link {
-    font-family: "PT Sans", sans-serif;
-    font-style: normal;
     font-size: 20px;
     line-height: 26px;
     font-weight: 700;
     text-align: center;
     color: black;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     text-decoration: none;
+}
+
+.search-link {
+    background-image: url("/images/search.svg");
+    background-repeat: no-repeat;
+}
+
+.like-link {
+    background-image: url("/images/favorite.svg");
+    background-repeat: no-repeat;
+}
+
+.twitter-link {
+    background-image: url("/images/social-twitter.svg");
+    background-repeat: no-repeat;
+}
+
+.facebook-link {
+    background-image: url("/images/social-facebook.svg");
+    background-repeat: no-repeat;
+}
+
+.youtube-link {
+    background-image: url("/images/social-youtube.svg");
+    background-repeat: no-repeat;
+}
+.rating-link {
+    background-image: url("/images/star.svg");
+    background-repeat: no-repeat;
+}
+
+.reasons-home {
+    background-image: url("/images/icon/icon-1.svg");
+    background-repeat: no-repeat;
+}
+
+.reasons-food {
+    background-image: url("/images/icon/icon-2.svg");
+    background-repeat: no-repeat;
+}
+
+.reasons-souv {
+    background-image: url("/images/icon/icon-3.svg");
+    background-repeat: no-repeat;
+}
+
+
 }
 /*Кнопка "хочу сюда"*/
 .button-link{
-    background-color:#756257; ;
-    color: #FFFFFF;
-    font-size:16px;
+    background-color:#756257;
+    color: #FFF;
+    font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
 }
+
 /*div для фонового изображения седона*/
 .gorgeous {
     background-image: url("/images/background-3.jpg");
@@ -50,14 +100,15 @@ background-color: #FFFFFF;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
+
+
 /*весь main*/
 .main-index{
-    font-family: "PT Sans", sans-serif;
-    font-style: normal;
     color: black;
 }
+
 .property{
-    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-size: 30px;
     line-height: 36px;
@@ -66,8 +117,8 @@ background-color: #FFFFFF;
     color: black;
     text-transform: uppercase;
 }
+
 .cause {
-    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-size: 22px;
     line-height: 36px;
@@ -75,54 +126,53 @@ background-color: #FFFFFF;
     text-align: center;
     color: #333333;
 }
+
 /* настоящий городок*/
 .reasons {
-    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
 }
+
 /*Список из преимуществ (uppercase)*/
-.reasons h3 {
-    font-family: "PT Sans", sans-serif;
+.reasons-title {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
 }
+
 /*параграфы из преимуществ цвет #333333*/
-.reasons p {
-    font-family: "PT Sans", sans-serif;
+.reasons-description {
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
 }
+
 /*Задал белый цвет параграфам исключением*/
-.card1 p {
-    color: #FFFFFF;
+.card-color p {
+    color: #FFF;
 }
-.card2 p {
-    color: #FFFFFF;
-}
+
 /*Фоны для карточек*/
 .reasons-item:nth-child(1) {
-    color:#ffffff;
-background-color:#83B3D3 ;
+ color:#FFF;
+background-color:#83B3D3;
 }
+
 .reasons-item:nth-child(5) {
-    color:#ffffff;
-background-color:#83B3D3 ;
+    color: #FFF;
+background-color:#83B3D3;
 }
 
 .reasons-item:nth-child(2n) {
-    background-color:rgba(131, 179, 211, 0.12);;
+    background-color:rgba(131, 179, 211, 0.12);
 }
 
 .reasons-item:nth-child(7) {
-    font-family: "PT Sans", sans-serif;
     font-style: normal;
 background: rgba(131, 179, 211, 0.2);
 }
@@ -130,58 +180,62 @@ background: rgba(131, 179, 211, 0.2);
 .interested {
     font-size: 30px;
     line-height: 36px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
 }
+
 .data-travel {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
     color: #333333;
 }
+
 .button-catalog {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 36px;
     text-decoration: none;
     background-color:#756257;
 }
+
 /*Секция подписаться*/
 .mailing {
     background-image: url("/images/background-1.jpg");
     background-position: no-repeat;
-    background-size: 100% auto ;
+    background-size: 100% auto;
     font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
     text-transform: uppercase;
 }
+
 .mailing-description {
     font-size: 22px;
     line-height: 26px;
     text-transform: none;
     font-weight: normal;
 }
+
 .button-email {
-    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
     text-transform: uppercase;
-    background-color:#83B3D3; ;
+    background-color: #83B3D3;
 }
+
 /*Телефон*/
 .phone-number {
-    font-family: "PT Sans", sans-serif;
     font-style: normal;
-    font-size:40px;
+    font-size: 40px;
     color: #000000;
     text-transform: uppercase;
     text-align: center;
@@ -195,9 +249,8 @@ background: rgba(131, 179, 211, 0.2);
 
 /*Основное Фильтры*/
 .filter-hostel {
-    font-family: "PT Sans", sans-serif;
     font-style: normal;
-    color: #FFFFFF;
+    color: #FFF;
     background-image: url("/images/background-2.jpg");
     background-position: no-repeat;
     background-size: 100% auto;
@@ -210,19 +263,30 @@ background: rgba(131, 179, 211, 0.2);
     font-size: 60px;
     line-height: 78px;
 }
+
 /* ссылка в фильтрах*/
 .breadcrumbs a {
     font-size: 16px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #FFF;
     text-decoration: none;
-
 }
+.visually-hidden {
+visibility: hidden;
+}
+/*Хлебные крошки*/
+.home-logo {
+    background-image: url("/images/icon/home-icon.svg");
+    background-repeat: no-repeat;
+}
+
+
 /*Инфраструктура и жилье фильтры*/
 .catalog-filter-title {
     font-size:20px;
     line-height: 26px;
 }
+
 .catalog-filter-item {
     font-size: 18px;
     line-height: 23px;
@@ -238,26 +302,30 @@ background: rgba(131, 179, 211, 0.2);
     font-size: 18px;
     line-height: 23px;
 }
+
 /*кнопка сбросить*/
 .button-filter {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 18px;
     line-height: 23px;
 }
+
 /*Кнопка применить*/
 .color {
     background-color:#83B3D3;
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 16px;
     line-height: 21px;
     text-transform: uppercase;
 }
+
 /*Кнопка найдено*/
 .search-hostels {
     font-weight: 700;
     font-size: 30px;
     line-height: 39px;
 }
+
 /*Кнопка select*/
 .select-control {
     font-family: "PT-sans", sans-serif;
@@ -266,39 +334,45 @@ background: rgba(131, 179, 211, 0.2);
     font-size: 18px;
     line-height: 23px;
 }
+
 /*Название гостиницы и ссылка*/
 .name-hostel {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 31px;
 }
+
 .hostel-from-link  {
-    color: black;
+color: black;
 text-decoration: none;
 }
+
 /*Гостиница и цена*/
 .price {
-    font-size: 18px;
+font-size: 18px;
 line-height: 23px;
 }
+
 /*Кнопка "подробнее избранное"*/
 .detail-link {
-    color: #FFFFFF;
-    font-size: 16px;
+color: #FFF;
+font-size: 16px;
 line-height: 21px;
 text-transform: uppercase;
-background-color:#756257;
+background-color: #756257;
 }
+
 .detail-button {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 16px;
 line-height: 21px;
 text-transform: uppercase;
-background-color:#83B3D3;
+background-color: #83B3D3;
 }
+
 /*Рейтинг*/
 .rating {
-    font-size: 16px;
+font-size: 16px;
 line-height: 21px;
 text-transform: uppercase;
    background-color:#F2F2F2;
@@ -306,10 +380,10 @@ text-transform: uppercase;
 
 /*Кнопка загрузить еще*/
 .button-upload{
-    font-size: 20px;
+font-size: 20px;
 line-height: 26px;
-font-weight: bold;
-color: #FFFFFF;
+font-weight: 700;
+color: #FFF;
 text-transform: uppercase;
 text-align: center;
 background-color:#83B3D3;
@@ -317,16 +391,17 @@ background-color:#83B3D3;
 
 /*Номера страниц*/
 .page-list {
-font-weight: bold;
+font-weight: 700;
 font-size: 20px;
 line-height: 26px;
 }
 
 .page-link {
-    color: #FFFFFF;
+    color: #FFF;
     background-color:#83B3D3;
     text-decoration: none;
 }
+
 .page-hostel-number {
     color: #333333;
     font-size: 18px;
@@ -334,13 +409,13 @@ line-height: 23px;
 }
 
 .mailing-hostels{
-
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #000F;
+    color: #000;
     text-transform: uppercase;
 }
+
 .mailing-hostels h2 {
     font-size: 30px;
 }
@@ -351,3 +426,4 @@ line-height: 23px;
     text-transform:none;
     color: #333333;
 }
+
