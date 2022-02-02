@@ -3,18 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <title>Седона</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
 
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <img class="logo-header" src="" alt="Маленький логотип Седона" />
+        <img
+          class="logo-header"
+          src="images/logo.svg"
+          width="139px"
+          height="70px"
+          alt="Маленький логотип Седона"
+        />
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigatiom-link" href="#"> О Седоне</a>
+            <a class="navigation-link" href="#"> О Седоне</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
@@ -23,60 +30,72 @@
 
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
+            <a class="navigation-link search-link" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
 
           <li class="navigation-item">
-            <a class="navigatiom-link" href="#">
+            <a class="navigation-link like-link" href="#">
               <span class="visually-hidden">Лайк</span>
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#"> Хочу сюда </a>
+            <a class="navigation-link button-link" href="#"> Хочу сюда </a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main class="main-index">
-      <h1 class="visually-hidden">
-        Седона. Сайт туристического городка в штате Аризона.
-      </h1>
-      <img class="logo" src="" alt="Логотип Седона" />
-
+      <div class="gorgeous">
+        <h1 class="visually-hidden">
+          Седона. Сайт туристического городка в штате Аризона.
+        </h1>
+      </div>
       <h2 class="property">
         Седона — небольшой городок в Аризоне, заслуживающий большего!
       </h2>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      <p class="cause">
+        Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
+      </p>
       <!--Это просто абзац-->
+
       <section class="reasons">
         <!--Болшая секция причины седона выяснить про классы на каждый блок, как получаеются разные цвета-->
         <h2 class="visually-hidden">Причины</h2>
         <ul class="reasons-list">
-          <li class="reasons-item">
+          <li class="reasons-item card-color">
             <h3 class="reasons-title">Настоящий городок</h3>
             <p class="reasons-description">— №1 —</p>
             <p class="reasons-description">
               Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
-            <img class="reasons-image-hotel" src="" alt="Фото гостиницы" />
+            <img
+              class="reasons-image-hotel"
+              src="images/photo-1.jpg"
+              width="800px"
+              height="384px"
+              alt="Фото гостиницы"
+            />
           </li>
           <li class="reasons-item">
             <h3 class="reasons-title">Жильё</h3>
             <p class="reasons-description">
               Рекомендуем пожить в настоящем мотеле, всё как в кино!
             </p>
-            <img class="reasons-logo" src="" alt="Домик" />
+            <span class="reasons-home">
+              <span class="visually-hidden">hom</span>
+            </span>
           </li>
-
           <li class="reasons-item">
             <h3 class="reasons-title">Еда</h3>
             <p class="reasons-description">
               Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
             </p>
-            <img class="reasons-logo" src="" alt="бургер" />
+            <span class="reasons-food">
+              <span class="visually-hidden">Food</span>
+            </span>
           </li>
 
           <li class="reasons-item">
@@ -84,16 +103,24 @@
             <p class="reasons-description">
               Не только китайского, но и настоящего местного производства!
             </p>
-            <img class="reasons-logo" src="" alt="сувенир" />
+            <span class="reasons-souv">
+              <span class="visually-hidden">Сувениры</span>
+            </span>
           </li>
 
-          <li class="reasons-item">
+          <li class="reasons-item card-color">
             <h3 class="reasons-title">там есть мост дьявола</h3>
             <p class="reasons-description">— №2 —</p>
             <p class="reasons-description">
               Да, по нему можно пройти! Если вы осмелитесь, разумеется
             </p>
-            <img class="reasons-image-bridge" src="" alt="каньон" />
+            <img
+              class="reasons-image-bridge"
+              src="images/photo-2.jpg"
+              width="800px"
+              height="384px"
+              alt="каньон"
+            />
           </li>
 
           <li class="reasons-item">
@@ -158,26 +185,31 @@
 
     <footer class="page-footer">
       <section class="footer-social">
-        <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social">
           <li class="social-item">
-            <a href="#"><img class="social-image" src="" alt="Twitter" /></a>
+            <a class="navigation-link twitter-link" href="#">
+              <span class="visually-hidden">Твиттер</span>
+            </a>
           </li>
           <li class="social-item">
-            <a href="#"><img class="social-image" src="" alt="Facebook" /></a>
+            <a class="navigation-link facebook-link" href="#">
+              <span class="visually-hidden">Фейсбук</span>
+            </a>
           </li>
           <li class="social-item">
-            <a href="#"><img class="social-image" src="" alt="Youtube" /></a>
+            <a class="navigation-link youtube-link" href="#">
+            <span class="visually-hidden">Ютуб</span>
           </li>
         </ul>
 
-          <a class="phone-number" href="78128121212">+7 (812) 812-12-12</a>
-
+        <a class="phone-number" href="78128121212">+7 (812) 812-12-12</a>
         <p class="academy-logo">
           <a class="academy-link" href="https://htmlacademy.ru/">
             <img
               class="academy-img"
-              src=""
+              src="images/html.png"
+              width="115px"
+              height="34px"
               alt="Картинка-ссылка html academy"
             />
           </a>

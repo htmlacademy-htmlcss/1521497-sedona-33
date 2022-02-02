@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+/*Все тело по умолчанию*/
+body {
+font-family: "PT-sans", sans-serif;
+color: black;
+background-color: #FFF;
+}
+
+/*header*/
+.page-header {
+    color: #000000;
+    background: #FFF;
+}
+
+/*Ссылки в nav*/
+.navigation-link {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.search-link {
+    background-image: url("/images/search.svg");
+    background-repeat: no-repeat;
+}
+
+.like-link {
+    background-image: url("/images/favorite.svg");
+    background-repeat: no-repeat;
+}
+
+.twitter-link {
+    background-image: url("/images/social-twitter.svg");
+    background-repeat: no-repeat;
+}
+
+.facebook-link {
+    background-image: url("/images/social-facebook.svg");
+    background-repeat: no-repeat;
+}
+
+.youtube-link {
+    background-image: url("/images/social-youtube.svg");
+    background-repeat: no-repeat;
+}
+.rating-link {
+    background-image: url("/images/star.svg");
+    background-repeat: no-repeat;
+}
+
+.reasons-home {
+    background-image: url("/images/icon/icon-1.svg");
+    background-repeat: no-repeat;
+}
+
+.reasons-food {
+    background-image: url("/images/icon/icon-2.svg");
+    background-repeat: no-repeat;
+}
+
+.reasons-souv {
+    background-image: url("/images/icon/icon-3.svg");
+    background-repeat: no-repeat;
+}
+
+
+
+/*Кнопка "хочу сюда"*/
+.button-link{
+    background-color:#756257;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+/*div для фонового изображения седона*/
+.gorgeous {
+    background-image: url("/images/welcome.svg"),
+    url("/images/background-3.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
+/*весь main*/
+.main-index{
+    color: black;
+}
+
+.property{
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.cause {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+}
+
+/* настоящий городок*/
+.reasons {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/*Список из преимуществ (uppercase)*/
+.reasons-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+/*параграфы из преимуществ цвет #333333*/
+.reasons-description {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+/*Задал белый цвет параграфам исключением*/
+.card-color p {
+    color: #FFF;
+}
+
+/*Фоны для карточек*/
+.reasons-item:nth-child(1) {
+ color:#FFF;
+background-color:#83B3D3;
+}
+
+.reasons-item:nth-child(5) {
+    color: #FFF;
+background-color:#83B3D3;
+}
+
+.reasons-item:nth-child(2n) {
+    background-color:rgba(131, 179, 211, 0.12);
+}
+
+.reasons-item:nth-child(7) {
+    font-style: normal;
+background: rgba(131, 179, 211, 0.2);
+}
+/*Секция рассылки*/
+.interested {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.data-travel {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+}
+
+.button-catalog {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-decoration: none;
+    background-color:#756257;
+}
+
+/*Секция подписаться*/
+.mailing {
+    background-image: url("/images/background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.mailing-description {
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.button-email {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #83B3D3;
+}
+
+/*Телефон*/
+.phone-number {
+    font-style: normal;
+    font-size: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+/*Внутренняя страница*/
+
+/*Основное Фильтры*/
+.filter-hostel {
+    font-style: normal;
+    color: #FFF;
+    background-image: url("/images/background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+/*Заголовок фильтры*/
+.filter-hostel h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+/* ссылка в фильтрах*/
+.breadcrumbs a {
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFF;
+    text-decoration: none;
+}
+.visually-hidden {
+visibility: hidden;
+}
+/*Хлебные крошки*/
+.home-logo {
+    background-image: url("/images/icon/home-icon.svg");
+    background-repeat: no-repeat;
+}
+
+
+/*Инфраструктура и жилье фильтры*/
+.catalog-filter-title {
+    font-size:20px;
+    line-height: 26px;
+}
+
+.catalog-filter-item {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/* Фильтр стоимость*/
+.filter-range {
+    font-size:20px;
+    line-height: 26px;
+}
+
+.number-button {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/*кнопка сбросить*/
+.button-filter {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/*Кнопка применить*/
+.color {
+    background-color:#83B3D3;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+/*Кнопка найдено*/
+.search-hostels {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+/*Кнопка select*/
+.select-control {
+    font-family: "PT-sans", sans-serif;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/*Название гостиницы и ссылка*/
+.name-hostel {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.hostel-from-link  {
+color: black;
+text-decoration: none;
+}
+
+/*Гостиница и цена*/
+.price {
+font-size: 18px;
+line-height: 23px;
+}
+
+/*Кнопка "подробнее избранное"*/
+.detail-link {
+color: #FFF;
+font-size: 16px;
+line-height: 21px;
+text-transform: uppercase;
+background-color: #756257;
+}
+
+.detail-button {
+    color: #FFF;
+    font-size: 16px;
+line-height: 21px;
+text-transform: uppercase;
+background-color: #83B3D3;
+}
+
+/*Рейтинг*/
+.rating {
+font-size: 16px;
+line-height: 21px;
+text-transform: uppercase;
+   background-color:#F2F2F2;
+}
+
+/*Кнопка загрузить еще*/
+.button-upload{
+font-size: 20px;
+line-height: 26px;
+font-weight: 700;
+color: #FFF;
+text-transform: uppercase;
+text-align: center;
+background-color:#83B3D3;
+}
+
+/*Номера страниц*/
+.page-list {
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+}
+
+.page-link {
+    color: #FFF;
+    background-color:#83B3D3;
+    text-decoration: none;
+}
+
+.page-hostel-number {
+    color: #333333;
+    font-size: 18px;
+line-height: 23px;
+}
+
+.mailing-hostels{
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.mailing-hostels h2 {
+    font-size: 30px;
+}
+
+.mailing-description-catalog {
+    font-size: 22px;
+    line-height: 26px;
+    text-transform:none;
+    color: #333333;
+}
+

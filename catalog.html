@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <title>Гостиницы</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <header class="page-header"> <!--Панель навигации-->
       <nav class="navigation">
-        <img class="logo-header" src="" alt="Маленький логотип Седона" />
+        <img class="logo-header" src="images/logo.svg" width="139px" height="70px" alt="Маленький логотип Седона" />
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigatiom-link" href="#"> О Седоне</a>
+            <a class="navigation-link" href="#"> О Седоне</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
@@ -21,17 +22,17 @@
         </ul>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
+            <a class="navigation-link search-link" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigatiom-link" href="#">
+            <a class="navigation-link like-link" href="#">
               <span class="visually-hidden">Лайк</span>
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#"> Хочу сюда </a>
+            <a class="navigation-link button-link" href="#"> Хочу сюда </a>
           </li>
         </ul>
       </nav>
@@ -41,9 +42,10 @@
         <h1 class="hostels">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a class="home-link" href="index.html"
-              ><img class="home-logo" src="" alt="На главную"
-            /></a>
+            <a class="home-logo" href="index.html">
+              <span class="visually-hidden">home</span>
+            </a>
+
           </li>
           <li class="breadcrumbs-item">
             <a class="home-link" href="catalog.html">Гостиницы</a>
@@ -121,7 +123,7 @@
           <input class="range" type="range" value="0" min="1" max="10000">
           <input class="number-button" type="number" value="9000" >
           <input class="range" type="range" value="9000" min="1" max="10000">
-          <button class="button-filter" type="submit">Применить</button>
+          <button class="button-filter color" type="submit">Применить</button>
           <button class="button-filter" type="reset" value="Сбросить">Сбросить</button>
         </form>
       </section>
@@ -144,52 +146,62 @@
   <ul class="list-hotel">
 <li class="hostels-item">
   <a class="hostel-from-link" href="">
-  <img class="hostel-from" src="" alt="Фото гостиницы">
+  <img class="hostel-from" src="images/hotel-images/hotel-Amara.jpg" width="299px" height="206px" alt="Гостиница Amara Resort & Spa">
   <h3 class="name-hostel"> Amara Resort & Spa </h3>
   </a>
   <span class="price">Гостиница </span>
   <span class="price">От 4000 &#8381; </span>
   <a class="detail-link " href="#">Подробнее</a>
   <button class="detail-button">В избранное</button>
-  <img class="stars" src="" alt="количество звезд">
+
+  <span class="rating-link">
+    <span class="visually-hidden">star</span>
+  </span>
+
   <span class="rating">Рейтинг: 8,5</span>
 </li>
 <li class="hostels-item">
   <a class="hostel-from-link" href="">
-  <img class="hostel-from" src="" alt="Фото гостиницы">
+  <img class="hostel-from" src="images/hotel-images/hotel-desert.jpg" width="299px" height="206px" alt="Гостиница Desert Quail Inn">
   <h3 class="name-hostel"> Desert Quail Inn </h3>
   </a>
   <span class="price">Гостиница </span>
   <span class="price">От 3000 &#8381 </span>
   <a class="detail-link " href="#">Подробнее</a>
   <button class="detail-button">В избранное</button>
-  <img class="stars" src="" alt="количество звезд">
+  <span class="rating-link">
+    <span class="visually-hidden">star</span>
+  </span>
   <span class="rating">Рейтинг: 8,9</span>
 </li>
 
 <li class="hostels-item">
   <a class="hostel-from-link" href="">
-  <img class="hostel-from" src="" alt="Фото гостиницы">
+  <img class="hostel-from" src="images/hotel-images/hotel-villas.jpg" width="299px" height="206px" alt="Гостиница Villas at Poco Diablo">
   <h3 class="name-hostel"> Villas at Poco Diablo </h3>
   </a>
   <span class="price">Гостиница</span>
   <span class="price">От 2000 &#8381 </span>
   <a class="detail-link " href="#">подробнее</a>
   <button class="detail-button">В избранном</button>
-  <img class="stars" src="" alt="количество звезд">
+  <span class="rating-link">
+    <span class="visually-hidden">star</span>
+  </span>
   <span class="rating">Рейтинг: 8,9</span>
 </li>
 
 <li class="hostels-item">
   <a class="hostel-from-link" href="">
-  <img class="hostel-from" src="" alt="Фото гостиницы">
+  <img class="hostel-from" src="images/hotel-images/hotel-GreenTree.jpg" width="299px" height="206px" alt="Гостиница GreenTree Inn">
   <h3 class="name-hostel"> GreenTree Inn </h3>
   </a>
   <span class="price">Гостиница </span>
   <span class="price">От 3000 &#8381 </span>
   <a class="detail-link " href="#">Подробнее</a>
   <button class="detail-button">В избранное</button>
-  <img class="stars" src="" alt="количество звезд">
+  <span class="rating-link">
+    <span class="visually-hidden">star</span>
+  </span>
   <span class="rating">Рейтинг: 9,2</span>
 </li>
   </ul>
@@ -213,8 +225,8 @@
 </div>
 <section class="mailing-hostels">
  <!--Подписаться на рассылку-->
- <h2 class="mailing">Подпишитесь на рассылку</h2>
- <p class="mailing-description">
+ <h2 class="mailing-catalog">Подпишитесь на рассылку</h2>
+ <p class="mailing-description-catalog">
    Только полезная информация и никакого спама, честное бойскаутское!
  </p>
 <form
@@ -234,16 +246,20 @@ method="post"
     </main>
     <footer class="page-footer">
       <section class="footer-social">
-        <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social">
           <li class="social-item">
-            <a href="#"><img class="social-image" src="" alt="Twitter" /></a>
+            <a class="navigation-link twitter-link" href="#">
+              <span class="visually-hidden">Твиттер</span>
+            </a>
           </li>
           <li class="social-item">
-            <a href="#"><img class="social-image" src="" alt="Facebook" /></a>
+            <a class="navigation-link facebook-link" href="#">
+              <span class="visually-hidden">Фейсбук</span>
+            </a>
           </li>
           <li class="social-item">
-            <a href="#"><img class="social-image" src="" alt="Youtube" /></a>
+            <a class="navigation-link youtube-link" href="#">
+            <span class="visually-hidden">Ютуб</span>
           </li>
         </ul>
           <a class="phone-number" href="78128121212">+7 (812) 812-12-12</a>
@@ -251,7 +267,7 @@ method="post"
           <a class="academy-link" href="https://htmlacademy.ru/">
             <img
               class="academy-img"
-              src=""
+              src="images/html.png" width="115px" height="34px"
               alt="Картинка-ссылка html academy"
             />
           </a>
