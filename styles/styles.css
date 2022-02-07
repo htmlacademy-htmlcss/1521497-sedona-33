@@ -20,10 +20,8 @@ html {
 
 /*Все тело по умолчанию*/
 body {
-    display: flex;
-    flex-direction: column;
-    margin:0;
-    width: 100%;
+margin: 0;
+width: 100%;
 font-family: "PT-sans", sans-serif;
 color: black;
 background-color: #FFF;
@@ -134,7 +132,7 @@ margin-left: auto;
 
 
 /*весь main*/
-.main-index{
+.main-index {
     color: black;
 }
 
@@ -144,7 +142,7 @@ margin-left: auto;
 }
 
 
-.property{
+.property {
     font-style: normal;
     font-size: 30px;
     line-height: 36px;
