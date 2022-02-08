@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <title>Седона</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-  </head>
 
-  <body>
-    <header class="page-header">
-      <nav class="navigation">
-        <img
-          class="logo-header"
-          src="images/logo.svg"
-          width="139px"
-          height="70px"
-          alt="Маленький логотип Седона"
-        />
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link" href="index.html">Главная</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#"> О Седоне</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
-          </li>
-        </ul>
+<head>
+  <meta charset="utf-8" />
+  <title>Седона</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
 
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link search-link" href="#">
-              <span class="visually-hidden">Поиск</span>
-            </a>
-          </li>
+<body>
+  <header class="page-header">
+    <nav class="navigation">
+      <img class="logo-header" src="images/logo.svg" width="139px" height="70px" Alt="Маленький логотип Седона" />
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="navigation-link" href="index.html">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#"> О Седоне</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="catalog.html">Гостиницы</a>
+        </li>
+      </ul>
 
-          <li class="navigation-item">
-            <a class="navigation-link like-link" href="#">
-              <span class="visually-hidden">Лайк</span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link button-link" href="#"> Хочу сюда </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-item">
+          <a class="navigation-link search-link" href="#">
+            <span class="visually-hidden">Поиск</span>
+          </a>
+        </li>
 
-    <main class="main-index">
+        <li class="navigation-item">
+          <a class="navigation-link like-link" href="#">
+            <span class="visually-hidden">Лайк</span>
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link button-link" href="#"> Хочу сюда </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-index main-container">
+    <div class="page-container">
       <div class="gorgeous">
         <h1 class="visually-hidden">
           Седона. Сайт туристического городка в штате Аризона.
@@ -71,13 +67,8 @@
             <p class="reasons-description">
               Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
-            <img
-              class="reasons-image-hotel"
-              src="images/photo-1.jpg"
-              width="800px"
-              height="384px"
-              alt="Фото гостиницы"
-            />
+            <img class="reasons-image-hotel" src="images/photo-1.jpg" width="800px" height="384px"
+              Alt="Фото гостиницы" />
           </li>
           <li class="reasons-item">
             <h3 class="reasons-title">Жильё</h3>
@@ -114,13 +105,7 @@
             <p class="reasons-description">
               Да, по нему можно пройти! Если вы осмелитесь, разумеется
             </p>
-            <img
-              class="reasons-image-bridge"
-              src="images/photo-2.jpg"
-              width="800px"
-              height="384px"
-              alt="каньон"
-            />
+            <img class="reasons-image-bridge" src="images/photo-2.jpg" width="800px" height="384px" Alt="каньон" />
           </li>
 
           <li class="reasons-item">
@@ -156,8 +141,7 @@
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <a class="button-catalog" href="catalog.html"
-          >поиск гостиницы в седоне
+        <a class="button-catalog" href="catalog.html">Поиск гостиницы в седоне
         </a>
       </section>
 
@@ -167,23 +151,16 @@
         <p class="mailing-description">
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
-        <form
-          class="email-form"
-          action="https://echo.htmlacademy.ru/"
-          method="post"
-        >
-          <input
-            type="email"
-            id="email-sending"
-            name="email-sending"
-            placeholder="Ваш e-mail"
-          />
+        <form class="email-form" action="https://echo.htmlacademy.ru/" method="post">
+          <input type="email" name="email-sending" placeholder="Ваш e-mail" />
           <button class="button-email" type="submit">Подписаться</button>
         </form>
       </section>
-    </main>
+    </div>
+  </main>
 
-    <footer class="page-footer">
+  <footer class="page-footer">
+    <div class="footer-container">
       <section class="footer-social">
         <ul class="footer-social">
           <li class="social-item">
@@ -201,20 +178,17 @@
             <span class="visually-hidden">Ютуб</span>
           </li>
         </ul>
-
-        <a class="phone-number" href="78128121212">+7 (812) 812-12-12</a>
-        <p class="academy-logo">
-          <a class="academy-link" href="https://htmlacademy.ru/">
-            <img
-              class="academy-img"
-              src="images/html.png"
-              width="115px"
-              height="34px"
-              alt="Картинка-ссылка html academy"
-            />
-          </a>
-        </p>
       </section>
-    </footer>
-  </body>
+      <a class="phone-number" href="tel">+7 (812) 812-12-12</a>
+      <p class="academy-logo">
+        <a class="academy-link" href="https://htmlacademy.ru/">
+          <img class="academy-img" src="images/html.png" width="115px" height="34px"
+            Alt="Картинка-ссылка html academy" />
+        </a>
+      </p>
+      </section>
+    </div>
+  </footer>
+</body>
+
 </html>
