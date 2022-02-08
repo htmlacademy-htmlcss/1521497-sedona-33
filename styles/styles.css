@@ -14,14 +14,8 @@
     font-display: swap;
 }
 
-html {
-    height: 100%;
-}
-
 /*Все тело по умолчанию*/
 body {
-margin: 0;
-width: 100%;
 font-family: "PT-sans", sans-serif;
 color: black;
 background-color: #FFF;
@@ -33,11 +27,6 @@ background-color: #FFF;
     background: #FFF;
 }
 
-.navigation {
-    display: flex;
-    width: 1060px;
-    margin: 0 auto;
-}
 /*Ссылки в nav*/
 .navigation-link {
     font-size: 20px;
@@ -47,22 +36,6 @@ background-color: #FFF;
     color: black;
     background-color: #FFF;
     text-decoration: none;
-}
-
-.navigation-list {
-width: 500px;
-margin: 0;
-padding: 0;
-}
-
-.navigation-user {
-width: 300px;
-margin-left: auto;
-}
-
-.page-container {
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .search-link {
@@ -122,7 +95,6 @@ margin-left: auto;
 
 /*div для фонового изображения седона*/
 .gorgeous {
-    margin: 0 auto;
     background-image: url("/images/welcome.svg"),
     url("/images/background-3.jpg");
     background-repeat: no-repeat;
@@ -130,19 +102,12 @@ margin-left: auto;
 
 
 
-
 /*весь main*/
-.main-index {
+.main-index{
     color: black;
 }
 
-.main-container {
-    display: flex;
-    flex-grow: 1;
-}
-
-
-.property {
+.property{
     font-style: normal;
     font-size: 30px;
     line-height: 36px;
@@ -186,17 +151,6 @@ margin-left: auto;
     color: #333333;
 }
 
-.reasons-list {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.reasons-item {
-width: 400px;
-}
-
 /*Задал белый цвет параграфам исключением*/
 .card-color p {
     color: #FFF;
@@ -206,11 +160,9 @@ width: 400px;
 .reasons-item:nth-child(1) {
  color:#FFF;
 background-color:#83B3D3;
-width: 1200px;
 }
 
 .reasons-item:nth-child(5) {
-    width: 1200px;
     color: #FFF;
 background-color:#83B3D3;
 }
@@ -287,7 +239,6 @@ background: rgba(131, 179, 211, 0.2);
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    width: 720px;
 }
 
 
@@ -302,10 +253,7 @@ background: rgba(131, 179, 211, 0.2);
     background-image: url("/images/background-2.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    display: flex;
-    margin: 0 auto;
 }
-
 
 
 /*Заголовок фильтры*/
@@ -377,8 +325,6 @@ visibility: hidden;
     line-height: 39px;
 }
 
-
-
 /*Кнопка select*/
 .select-control {
     font-family: "PT-sans", sans-serif;
@@ -393,12 +339,6 @@ visibility: hidden;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-}
-
-.list-hotel {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1058px;
 }
 
 .hostel-from-link  {
@@ -454,10 +394,6 @@ font-weight: 700;
 font-size: 20px;
 line-height: 26px;
 }
-.page-list {
-    display: flex;
-    justify-content: space-around;
-}
 
 .page-link {
     color: #FFF;
@@ -490,13 +426,3 @@ line-height: 23px;
     color: #333333;
 }
 
-.footer-social {
-    width: 110px;
-    margin-right: 80px;
-}
-
-.footer-container {
-    display: flex;
-    width: 1200px;
-    margin: 0 auto;
-}
