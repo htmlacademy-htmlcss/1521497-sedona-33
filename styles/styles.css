@@ -300,6 +300,7 @@ background: rgba(131, 179, 211, 0.2);
     color: #FFF;
     text-transform: uppercase;
     background-color: #83B3D3;
+    margin-bottom: 141px;
 }
 
 /*Телефон*/
@@ -313,9 +314,6 @@ background: rgba(131, 179, 211, 0.2);
     width: 720px;
 }
 
-
-
-
 /*Внутренняя страница*/
 
 /*Основное Фильтры*/
@@ -325,7 +323,6 @@ background: rgba(131, 179, 211, 0.2);
     background-image: url("/images/background-2.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    display: flex;
     margin: 0 auto;
 }
 
@@ -336,6 +333,9 @@ background: rgba(131, 179, 211, 0.2);
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
+    margin-left: 70px;
+    margin-top: 0;
+    margin-bottom: 0px; 
 }
 
 /* ссылка в фильтрах*/
@@ -349,9 +349,9 @@ background: rgba(131, 179, 211, 0.2);
 .breadcrumbs {
     display: flex;
     list-style-type: none;
+    margin-left: 35px;
+    margin-top: 5px;
 }
-
-
 
 .visually-hidden {
  visibility: hidden;
@@ -408,7 +408,16 @@ background: rgba(131, 179, 211, 0.2);
     line-height: 39px;
 }
 
+.sorting-container{
+    display: flex;
+    margin-bottom: 56px;
+    padding: 16px;
+}
 
+.sorting-container .button-item {
+  width: 56px;
+  height: 48px;
+}
 
 /*Кнопка select*/
 .select-control {
@@ -441,6 +450,10 @@ text-decoration: none;
 .price {
 font-size: 18px;
 line-height: 23px;
+}
+
+.list-hotel {
+    list-style-type: none;
 }
 
 /*Кнопка "подробнее избранное"*/
@@ -487,13 +500,23 @@ line-height: 26px;
 }
 .page-list {
     display: flex;
-    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
 }
 
 .page-link {
-    color: #FFF;
-    background-color:#83B3D3;
-    text-decoration: none;
+    display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  padding: 14px 20px;
+  color: #FFF;
+  background-color:#83B3D3;
+  text-decoration: none;
+}
+
+.page-item {
+    margin-right: 8px;
 }
 
 .page-hostel-number {
@@ -514,11 +537,16 @@ line-height: 23px;
     font-size: 30px;
 }
 
+.mailing-catalog {
+    margin-bottom: 15px;
+}
+
 .mailing-description-catalog {
     font-size: 22px;
     line-height: 26px;
     text-transform:none;
     color: #333333;
+    margin-bottom: 25px;
 }
 
 .footer-social {
